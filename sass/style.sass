@@ -1,0 +1,216 @@
+*
+	font-family: 'Roboto', sans-serif
+
+
+.homework_list ul li 
+	padding-bottom: 30px
+
+.homework_list ul li a,
+.search__link-to-main a,
+.numbers__link-to-main a,
+.weather__link-to-main a,
+.block__link-to-main a,
+.gallery__link-to-main a,
+.horse__link-to-main a
+	text-decoration: none
+	color: #00ff
+	font-size: 20px
+
+.numbers,
+.search,
+.weather,
+.gallery,
+.gallery__photos,
+.horse,
+.horse__strings
+	display: flex
+	justify-content: space-between
+	flex-wrap: wrap
+
+.search__box
+	max-width: 400px
+	width: 100%
+
+.search__input-search
+	padding: 3px
+	max-width: 300px
+	width: 100%
+	border-radius: 2px
+	font-size: 20px
+
+.search__input-search:focus
+	color: #ff0000
+	border: 2px solid #00ff
+	outline: none
+
+.search__input-submit
+	border-radius: 4px
+	font-size: 20px
+
+.numbers__box
+	font-size: 20px
+
+.numbers__input-numbers
+	font-size: 20px
+	width: 40px
+	padding: 3px 5px 3px 2px
+
+.weather__column img
+	max-width: 150px
+	max-height: 150px
+
+.weather__column 
+	float: left
+	width: 150px
+	cursor: pointer
+	margin: 0 10px
+
+.weather__column:hover
+	box-shadow: 0 0 10px
+
+.weather__image
+	text-align: center
+
+.weather__date
+	background-color: #24B4D3
+	color: #fff
+	font-size: 18px
+	text-align: center
+
+.weather__deg
+	text-align: center
+	font-size: 24px
+
+.block__content
+	margin-top: 40px
+
+.block__heading
+	display: inline-block
+	padding: 6px
+	max-width: 250px
+	width: fit-content 
+	background-color: #C1FD81
+	border-radius: 10px 10px 0px 0px
+	margin-bottom: -5px
+	text-overflow: ellipsis
+	overflow: hidden
+	border: 1px solid #076400
+	border-bottom: 0
+	box-shadow: 0 -4px 8px -5px  #076400, -7px 1.6px 5px -8px  #076400, 7px 0.5px 4px -8px #076400
+
+.block__text
+	max-width: 600px
+
+	border: 1px solid #076400
+	border-radius: 0px 0px 10px 10px
+	padding: 10px
+	height: 300px
+	background-color: #C1FD81
+	box-shadow: 1px -1px 20px -6px   #076400, 1px 1px 20px -6px  #076400
+	
+.block__link-to-main
+	position: absolute
+	right: 0
+	top: 0
+
+// .gallery__image img
+// 	width: 150px
+// 	height: 150px
+// 	border-radius: 50%
+
+.gallery__image
+	margin: 0 15px
+	position: relative
+
+.gallery__image1,
+.gallery__image2,
+.gallery__image3
+	height: 200px
+	width: 200px
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: top center
+	position: relative
+	border-radius:50%
+
+.gallery__image1
+	background-image: url("../img/4.png")
+
+.gallery__image2
+	background-image: url("../img/5.png")
+
+.gallery__image3
+	background-image: url("../img/6.png")
+
+.fab,
+.fas
+	color: #fff
+	border-radius: 50%
+	position: absolute
+	background-color: #7A7A7A
+	cursor: pointer
+
+.fab:hover,
+.fas:hover
+	background-color: #771AAD
+	color: #fff
+
+.fa-twitter:hover
+	background-color: #00D2FF
+	color: #fff
+
+.fa-facebook-f:hover
+	color: #2400FF
+	background-color: #fff
+.fa-twitter	
+	padding: 4px
+	top: 22px
+	left: 8px
+
+.fa-bold
+	padding: 4px 6px
+	top: 0px
+	left: 35px
+
+.fa-facebook-f
+	padding: 4px 7px
+	top: 52px
+	left: -5px
+
+.fa-envelope
+	padding: 4px 5px
+	bottom: -8px
+	left: 90px
+
+.horse__box
+	margin-left: 45px
+
+
+.horse__column
+	border-bottom: 1px solid
+	border-right: 1px solid
+
+.horse__column1,
+.horse__column2,
+.horse__column3
+	border-top: 1px solid
+
+.horse__column1,
+.horse__column4,
+.horse__column7
+	border-left: 1px solid
+
+.horse__columns
+	width: 100px
+	height: 100px
+	cursor: pointer
+
+.switch input 
+	display: none 
+
+input:checked + .horse__columns 
+	background-image: url("../img/0.jpg")
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: top center
+	position: relative
